@@ -17,10 +17,10 @@ function navbar() {
                             <NavLink exact={true} to='/' end>Users</NavLink>
                         </li>
                         <li>
-                            <NavLink to='/about' end>About</NavLink>
+                            <NavLink to='/props' end>Props</NavLink>
                         </li>
                         <li>
-                            <NavLink to='/contact' end>Contact</NavLink>
+                            <NavLink to='/state' end>state</NavLink>
                         </li>
                         <li className='adduser-btn'>
                             <Link exact to='/user/add' end>Add User</Link>

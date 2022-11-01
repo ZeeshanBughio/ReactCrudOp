@@ -1,12 +1,13 @@
 import './App.css';
 import Home from './components/pages/home';
-import About from './components/pages/about';
-import Contact from './components/pages/contact';
+import Props from './components/pages/props';
+import State from './components/pages/state';
 import NotFound from './components/pages/notfound';
 import Navbar from './layout/navbar';
 import Footer from './layout/footer';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import AddUser from './components/user/AddUser';
+import EditUser from './components/user/EditUser';
 
 function App() {
   return (
@@ -15,9 +16,10 @@ function App() {
         <Navbar />
         <Routes>
           <Route exact path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/contact" element={<Contact />} />
+          <Route path="/props" element={<Props />} />
+          <Route path="/state" element={<State />} />
           <Route path="/user/add" element={<AddUser />} />
+          <Route path="/user/edit/:id" element={<EditUser />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
         <Footer />

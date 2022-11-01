@@ -1,13 +1,13 @@
 import React from 'react'
 
-function Contact() {
+function State() {
   return (
     <div className='page-layout'>
         <div className='container-1440'>
-            <h1 className='text-heading'>Contact</h1>
+            <h1 className='text-heading'>State</h1>
         </div>
     </div>
   )
 }
 
-export default Contact
+export default State
