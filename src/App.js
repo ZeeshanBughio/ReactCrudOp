@@ -8,6 +8,7 @@ import Footer from './layout/footer';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import AddUser from './components/user/AddUser';
 import EditUser from './components/user/EditUser';
+import User from './components/user/User';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path="/state" element={<State />} />
           <Route path="/user/add" element={<AddUser />} />
           <Route path="/user/edit/:id" element={<EditUser />} />
+          <Route path="/user/:id" element={<User />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
         <Footer />

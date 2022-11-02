@@ -1,172 +1,39 @@
 {
   "users": [
     {
-      "name": "asdasd",
-      "username": "qweqwe",
-      "email": "qwerq",
-      "phone": "qwrqwrqrw",
-      "id": 12
+      "name": "Waris Siddiqui",
+      "username": "Waris",
+      "email": "waris.siddiqui@oip.com.pk",
+      "phone": "070000000000",
+      "id": 1
     },
     {
-      "name": "asdasd",
-      "username": "qweqwe",
-      "email": "qwerq",
-      "phone": "qwrqwrqrw",
-      "id": 13
+      "name": "Zeeshan",
+      "username": "Zee",
+      "email": "zeeshan.bughio@oip.com.pk",
+      "phone": "08000000000",
+      "id": 2
     },
     {
-      "name": "asdasd",
-      "username": "qweqwe",
-      "email": "qwerq",
-      "phone": "qwrqwrqrw",
-      "id": 14
+      "name": "Huzaifa",
+      "username": "Huzzi",
+      "email": "huzaifa.anwar@binaryitsolution.com",
+      "phone": "09000000000",
+      "id": 3
     },
     {
-      "name": "asdasd",
-      "username": "qweqwe",
-      "email": "qwerq",
-      "phone": "qwrqwrqrw",
-      "id": 15
+      "name": "Ali Baig",
+      "username": "Aly",
+      "email": "ali.baig@oip.com.pk",
+      "phone": "0700000000",
+      "id": 4
     },
     {
-      "name": "asdasda",
-      "username": "asdasd",
-      "email": "asdasd",
-      "phone": "asdasdas",
-      "id": 16
-    },
-    {
-      "name": "asdasda",
-      "username": "asdasd",
-      "email": "asdasd",
-      "phone": "asdasdas",
-      "id": 17
-    },
-    {
-      "name": "asdasdaasfasfafs",
-      "username": "asdasdasfasf",
-      "email": "asdasdasfafs",
-      "phone": "asdasdasasfafafs",
-      "id": 18
-    },
-    {
-      "name": "asdasdaasfasfafs",
-      "username": "asdasdasfasf",
-      "email": "asdasdasfafs",
-      "phone": "asdasdasasfafafs",
-      "id": 19
-    },
-    {
-      "name": "asdasdaasfasfafs",
-      "username": "asdasdasfasf",
-      "email": "asdasdasfafs",
-      "phone": "asdasdasasfafafs",
-      "id": 20
-    },
-    {
-      "name": "asdasdaasfasfafs",
-      "username": "asdasdasfasf",
-      "email": "asdasdasfafs",
-      "phone": "asdasdasasfafafs",
-      "id": 21
-    },
-    {
-      "name": "asdasdaasfasfafs",
-      "username": "asdasdasfasf",
-      "email": "asdasdasfafs",
-      "phone": "asdasdasasfafafs",
-      "id": 22
-    },
-    {
-      "name": "asdasdaasfasfafs",
-      "username": "asdasdasfasf",
-      "email": "asdasdasfafs",
-      "phone": "asdasdasasfafafs",
-      "id": 23
-    },
-    {
-      "name": "asdasdaasfasfafs",
-      "username": "asdasdasfasf",
-      "email": "asdasdasfafs",
-      "phone": "asdasdasasfafafs",
-      "id": 24
-    },
-    {
-      "name": "",
-      "username": "",
-      "email": "",
-      "phone": "",
-      "id": 25
-    },
-    {
-      "name": "",
-      "username": "",
-      "email": "",
-      "phone": "",
-      "id": 26
-    },
-    {
-      "name": "",
-      "username": "",
-      "email": "",
-      "phone": "",
-      "id": 27
-    },
-    {
-      "name": "asasd",
-      "username": "asdasd",
-      "email": "",
-      "phone": "",
-      "id": 28
-    },
-    {
-      "name": "asasd",
-      "username": "asdasd",
-      "email": "",
-      "phone": "",
-      "id": 29
-    },
-    {
-      "name": "asasd",
-      "username": "asdasd",
-      "email": "",
-      "phone": "",
-      "id": 30
-    },
-    {
-      "name": "asasd",
-      "username": "asdasd",
-      "email": "",
-      "phone": "",
-      "id": 31
-    },
-    {
-      "name": "style",
-      "username": "zeeshanbug",
-      "email": "tauqeer.ahmed@binaryitsolution.com",
-      "phone": "343453453445435",
-      "id": 32
-    },
-    {
-      "name": "Usama",
-      "username": "zolfikarb@gmail.com",
-      "email": "usama@gmail.com",
-      "phone": "0900787601",
-      "id": 33
-    },
-    {
-      "name": "az",
-      "username": "qwe",
-      "email": "123",
-      "phone": "125125",
-      "id": 34
-    },
-    {
-      "name": "asdasd",
-      "username": "qwert123",
-      "email": "abcd@gmail.com",
-      "phone": "4654654",
-      "id": 35
+      "name": "Qambar Ali",
+      "username": "Cucumber",
+      "email": "qamber.ali@gmail.com",
+      "phone": "06000000000",
+      "id": 5
     }
   ]
 }

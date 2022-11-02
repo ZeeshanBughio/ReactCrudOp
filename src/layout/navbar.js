@@ -14,16 +14,16 @@ function navbar() {
                 <div className='links-head'>
                     <ul>
                         <li>
-                            <NavLink exact={true} to='/' end>Users</NavLink>
+                            <NavLink to='/' end>Users</NavLink>
                         </li>
                         <li>
-                            <NavLink to='/props' end>Props</NavLink>
+                            <NavLink to='/props'>Props</NavLink>
                         </li>
                         <li>
-                            <NavLink to='/state' end>state</NavLink>
+                            <NavLink to='/state'>state</NavLink>
                         </li>
                         <li className='adduser-btn'>
-                            <Link exact to='/user/add' end>Add User</Link>
+                            <Link to={'/user/add'}>Add User</Link>
                         </li>
                     </ul>
                 </div>

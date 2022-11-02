@@ -4,7 +4,7 @@ import { useParams } from 'react-router-dom'
 import { useNavigate } from "react-router-dom";
 
 
-const EditUser = () => {
+const User = () => {
     const location = useNavigate();
     const {id} = useParams();
     const [users, setUser] = useState({
@@ -20,8 +20,6 @@ const EditUser = () => {
     }
 
     const onSubmit = async e => {
-        e.preventDefault();
-        await axios.put(`http://localhost:3001/users/${id}`, users);
         location('/');
     }
 
@@ -39,15 +37,15 @@ const EditUser = () => {
             <div className='container-1440'>
                 <h1 className='text-heading text-center'>Edit User</h1>
                 <form className='form-add-user' onSubmit={e => onSubmit(e)}>
-                    <input required type='text' placeholder='Name' name='name' value={name} onChange={e => onInputChange(e)} />
-                    <input required type='text' placeholder='User Name' name='username' value={username} onChange={e => onInputChange(e)} />
-                    <input required type='email' placeholder='Email' name='email' value={email} onChange={e => onInputChange(e)} />
-                    <input required type='number' placeholder='Phone Number' name='phone' value={phone} onChange={e => onInputChange(e)} />
-                    <button type='submit' className='bg-purple'>Edit User</button>
+                    <input readOnly required type='text' placeholder='Name' name='name' value={name} onChange={e => onInputChange(e)} />
+                    <input readOnly required type='text' placeholder='User Name' name='username' value={username} onChange={e => onInputChange(e)} />
+                    <input readOnly required type='email' placeholder='Email' name='email' value={email} onChange={e => onInputChange(e)} />
+                    <input readOnly required type='number' placeholder='Phone Number' name='phone' value={phone} onChange={e => onInputChange(e)} />
+                    <button type='submit' className='bg-purple'>Back</button>
                 </form>
             </div>
         </div>
     )
 }
 
-export default EditUser
+export default User
