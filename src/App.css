@@ -197,3 +197,7 @@ h1{
 .table-crud table tr td:last-child {
     min-width: 250px;
 }
+
+.text-center{
+    text-align: center;
+}
