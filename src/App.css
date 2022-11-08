@@ -5,15 +5,20 @@
     text-decoration: none;
 }
 
-:root{
-    --purple: #BE5A72;
+:root {
+    --purple: linear-gradient(45deg, rgb(0, 217, 255) 25%,rgb(0, 98, 255) 100%);
 }
 
-h1,h2,h3,h4,h5,h6{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     color: var(--purple);
 }
 
-h1{
+h1 {
     font-size: 4em;
 }
 
@@ -100,7 +105,8 @@ h1{
     color: white;
 }
 
-.table-crud table tr th,.table-crud table tr td {
+.table-crud table tr th,
+.table-crud table tr td {
     padding: 15px;
 }
 
@@ -136,7 +142,7 @@ h1{
     color: white;
 }
 
-.text-center{
+.text-center {
     text-align: center;
 }
 
@@ -145,7 +151,8 @@ h1{
     margin: 30px auto 0;
 }
 
-.form-add-user input, .form-add-user button {
+.form-add-user input,
+.form-add-user button {
     display: block;
     width: 100%;
     max-width: 100%;
@@ -155,7 +162,9 @@ h1{
     border: 1px solid var(--purple);
 }
 
-*, ::after, ::before {
+*,
+::after,
+::before {
     box-sizing: border-box;
 }
 
@@ -198,6 +207,42 @@ h1{
     min-width: 250px;
 }
 
-.text-center{
+.text-center {
     text-align: center;
+}
+
+.react-clock {
+    margin: 30px auto;
+}
+
+.react-clock__face {
+    border: none !important;
+}
+
+.react-clock__mark__body,
+.react-clock__hand__body {
+    background: var(--purple) !important;
+}
+
+.react-clock__second-hand__body {
+    background: black;
+}
+
+input#time {
+    padding: 15px;
+    width: 100%;
+    max-width: 330px;
+    margin: 20px auto;
+    font-size: 30px;
+    border: none;
+    border-bottom: 1px solid var(--purple);
+    color: var(--purple);
+}
+
+input#time[type="time"]::-webkit-calendar-picker-indicator {
+    background-color: var(--purple);
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    position: relative;
 }

@@ -18,22 +18,36 @@
       "name": "Huzaifa",
       "username": "Huzzi",
       "email": "huzaifa.anwar@binaryitsolution.com",
-      "phone": "09000000000",
+      "phone": "09000",
       "id": 3
     },
     {
       "name": "Ali Baig",
       "username": "Aly",
       "email": "ali.baig@oip.com.pk",
-      "phone": "0700000000",
+      "phone": "07000",
       "id": 4
     },
     {
-      "name": "Qambar Ali",
-      "username": "Cucumber",
-      "email": "qamber.ali@gmail.com",
-      "phone": "06000000000",
+      "name": "Ahmed",
+      "username": "Ahmeddd",
+      "email": "ahmed@oip.com.pk",
+      "phone": "05000",
       "id": 5
+    },
+    {
+      "name": "about",
+      "username": "abouu",
+      "email": "about@gmail.com",
+      "phone": "09000",
+      "id": 6
+    },
+    {
+      "name": "Mahir Usama",
+      "username": "Usama Mahir",
+      "email": "mahirusama@gmail.com",
+      "phone": "090000000",
+      "id": 7
     }
   ]
 }

@@ -20,7 +20,7 @@ function navbar() {
                             <NavLink to='/props'>Props</NavLink>
                         </li>
                         <li>
-                            <NavLink to='/state'>state</NavLink>
+                            <NavLink to='/alarm'>Alarm</NavLink>
                         </li>
                         <li className='adduser-btn'>
                             <Link to={'/user/add'}>Add User</Link>

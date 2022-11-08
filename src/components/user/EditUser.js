@@ -21,7 +21,7 @@ const EditUser = () => {
 
     const onSubmit = async e => {
         e.preventDefault();
-        await axios.put(`http://localhost:3001/users/${id}`, users);
+        await axios.patch(`http://localhost:3001/users/${id}`, users);
         location('/');
     }
 

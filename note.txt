@@ -1,0 +1,3 @@
+Javascript is a Synchronous Single-threaded Language
+
+AJAX (Asynchronous Javascript and XML)

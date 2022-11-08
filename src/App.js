@@ -1,7 +1,7 @@
 import './App.css';
 import Home from './components/pages/home';
 import Props from './components/pages/props';
-import State from './components/pages/state';
+import Alarm from './components/pages/alarm';
 import NotFound from './components/pages/notfound';
 import Navbar from './layout/navbar';
 import Footer from './layout/footer';
@@ -18,7 +18,7 @@ function App() {
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route path="/props" element={<Props />} />
-          <Route path="/state" element={<State />} />
+          <Route path="/alarm" element={<Alarm />} />
           <Route path="/user/add" element={<AddUser />} />
           <Route path="/user/edit/:id" element={<EditUser />} />
           <Route path="/user/:id" element={<User />} />
